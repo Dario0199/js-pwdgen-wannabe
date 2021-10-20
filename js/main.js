@@ -18,4 +18,5 @@ console.log(typeof colorePreferito);
 // Mostra password a schermo
 // 1 seleziona elemento HTML
 // 2 inserisci il contenuto
-document.getElementById('password').innerHTML = 'La tua password è: ' + nomeUtente + cognomeUtente + colorePreferito + '21';
+//document.getElementById('password').innerHTML = 'La tua password è: ' + nomeUtente + cognomeUtente + colorePreferito + '21';
+document.getElementById('password').innerHTML = `La tua password è: ${nomeUtente}${cognomeUtente}${colorePreferito}21`;
