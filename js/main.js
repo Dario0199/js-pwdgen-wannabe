@@ -11,7 +11,11 @@ console.log(cognomeUtente);
 console.log(typeof cognomeUtente);
 
 // Chiedi qual è il suo colore preferito
-const coloreUtente = prompt ('Qual è il tuo colore preferito?')
-console.log(coloreUtente);
-console.log(typeof coloreUtente);
+const colorePreferito = prompt ('Qual è il tuo colore preferito?')
+console.log(colorePreferito);
+console.log(typeof colorePreferito);
 
+// Mostra password a schermo
+// 1 seleziona elemento HTML
+// 2 inserisci il contenuto
+document.getElementById('password').innerHTML = 'La tua password è: ' + nomeUtente + cognomeUtente + colorePreferito + '21';
